@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ===========================================
+# Project-specific ignores
+# ===========================================
+
+# Data files (keep structure, ignore generated/large files)
+data/processed/
+data/features/
+data/splits/
+
+# Model artifacts (generated during training)
+inference/models/*.joblib
+inference/models/*.pt
+inference/models/*.onnx
+inference/models/roi_config.json
+inference/models/rule_based_config.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Project images
+original_images/
