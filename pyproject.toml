@@ -32,6 +32,9 @@ cnn = [
     "torch>=2.0",
     "torchvision>=0.15",
 ]
+bgremoval = [
+    "transparent-background>=1.0",
+]
 dev = [
     "pytest>=7.4",
     "pytest-asyncio>=0.21",

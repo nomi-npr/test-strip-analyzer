@@ -234,3 +234,5 @@ temp/
 
 # Project images
 original_images/
+data/
+training/runs/
