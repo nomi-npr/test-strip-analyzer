@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv sync:*)",
+      "Bash(uv run python:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "Bash(cat:*)",
+      "Bash(git -C /Users/npomella/Documents/test-strip-analyzer log --oneline --all -20)",
+      "Bash(git -C /Users/npomella/Documents/test-strip-analyzer log --format=\"%H %s\" --name-status -5)",
+      "Bash(wc:*)"
+    ]
+  }
+}
