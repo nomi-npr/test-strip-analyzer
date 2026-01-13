@@ -31,6 +31,7 @@ dependencies = [
 cnn = [
     "torch>=2.0",
     "torchvision>=0.15",
+    "timm>=0.9",
 ]
 bgremoval = [
     "transparent-background>=1.0",
